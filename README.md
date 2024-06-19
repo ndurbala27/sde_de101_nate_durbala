@@ -1,5 +1,3 @@
-# sde_de101_nate_durbala
-
 # Start Data Engineering DE 101 Free Course
 
 # Course details
