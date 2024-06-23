@@ -1,0 +1,45 @@
+Imagine that you are hired to enable data analytics; where would you start? How would you go about gathering requirements? 
+
+Hint: Think backward from what the business may need. Write down notes/code under the folder for lesson 1.
+
+Responsibilities of a data engineer
+1. Move data between systems
+2. Manage data warehouse
+3. Schedule, execute, and monitor data pipelines
+4. Serve data to the end-users
+5. Data strategy for the company
+6. Deploy ML models to production
+
+
+Collaborate with the business to develop specific end user story(ies) who will consume and work with the data.
+
+“As a [persona/role], I/My [want to/goal is to], [so that(benefits)].”
+
+Have the business end user define the criteria for "done", like specific objective key results (OKRs) that are expected.
+
+Then, review the user stories and the OKRs to outline and prioritize tasks and subtasks.
+
+As a data enginer, I expect the business end user to answer my concerns on what are the sources and desination of the data. Does data from multiple sources need to be related, and what is there relationship based on. This way data can be properly modeled based on facts and dimensions to aggregation queries.
+
+How should the data be stored, transformed, normalized or denormalized, and what are the expected data types after ETL processes are complete. 
+
+I would ask what type of data analytic tools do they plan to use to analyze the data (e.g. Power BI, Tableau, Qlik, Excel, etc.).
+
+I would ask about the frequency and how fresh the data needs to be accessible, so that my team and I can determine how the data needs to be warehoused, and the schedule and execution of data refresh for real-time or near real-time availability. For example, do they need to have access to new data within a number seconds if this business is interested in stock market watching, or do they need large amounts of historical data.
+
+This would help drive the conversation further with the business end user to articulate what type of data analytics will they perform.
+
+For example, are they preforming any of these data analytic functions;
+1. descriptive - "what happened or what does it look like right now (current state of things or situation)"
+
+2. diagnostics - "explaining why it happened"
+
+3. predictive - "forecasting what might happen like predicting weather patterns"
+
+4. perscriptive - "recommending an action based on the forecast. 'I recommend packing a rain coat because rain is predicted for tomorrow.'"
+
+
+I would need to understand the business rules and logic, and roles that should have certain levels of permissions (read vs. write) to access specific data.
+
+We would need to develop data definition documentation and the strategy how the data is used, and digitizing and codifying that into some form of continuity like Confluence knowledge management pages. 
+
